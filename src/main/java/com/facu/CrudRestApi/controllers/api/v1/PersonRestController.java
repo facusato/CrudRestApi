@@ -23,7 +23,6 @@ public class PersonRestController {
 		persons.add(new PersonModel(1,"Facundo","Cusato",LocalDate.of(1991,01,19),36363056));
 		persons.add(new PersonModel(2,"Yuliana","Cusato",LocalDate.of(1992,8,29),35340056));
 		return new ResponseEntity<List<PersonModel>>(persons,HttpStatus.OK);
-		
 	}
 
 }
